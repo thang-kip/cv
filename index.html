@@ -1,68 +1,112 @@
-<<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Mawi's Personal Site</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nau Nau's Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/afa44d96f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-  <table cellspacing="20">
-    <td><img src="images/profile1.jpg" alt="My Photo HERE" /></td>
-    <td>
-      <h1>Ni Sui Mawi</h1>
-      <p><em>A <strong><a href="https://www.linkedin.com/in/faustina-ni-sway-mway-7ba0a2180/">girl</a></strong> from not so far away!</em></p>
-      <p>Professional experienced over 7 years as HR & Administrative and Customer
-        Service Officer (contact center) in banking sector.
-      </p>
-    </td>
+    <header>
+        <div class="logo">
+            <img src="" alt="logo">
+        </div>
+        <button class="nav-toggle" arie-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">My Service</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  </table>
-  <hr>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Ni Sui Mawi</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Customer Service</p>
+        <img src="img/naunau.jpg" class="intro__img" alt="a picture of Ni Sui Mawi" >
+    </section>
 
-  <h3>Educations</h3>
-  <ul>
-    <li>Business Management in Advanced Diploma</li>
-    <li>Business Management in Higher Diploma</li>
-    <li>Advanced Certificate in Sales and Marketing</li>
-    <li>Certificate in Basic Course</li>
-    <li>LCCI Level-2 Certificate in Book-Keeping and Accounts</li>
-    <li>Diploma in English</li>
-    <li>Diploma in Information Technology</li>
-  </ul>
-  <hr>
-  <table>
-    <tr>
-      <td>Bechlor of Sciences(Chemistry)</td>
-      <td>2010 - 2014</td>
-    </tr>
-    <tr>
-      <td>Diploma in Business Management(UK)</td>
-      <td>2018 - 2019</td>
-    </tr>
-  </table>
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Desing + Development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem facilis mollitia ipsum nemo, totam quibusdam rem placeat itaque, dignissimos repellat ullam hic quod minus corrupti unde quisquam tempora accusamus? Rem.</p>
+            </div>
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cumque facere! Quidem obcaecati debitis aperiam fuga iste. Labore reiciendis sequi, accusamus velit facere, incidunt explicabo veniam qui corrupti nisi numquam?</p>
+            </div>
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores esse molestias quae. Tempora explicabo, accusamus illum voluptatum saepe quia doloremque quaerat repellendus, id libero facilis, reiciendis laboriosam. Quam, eos?</p>
+            </div>
+        </div>
 
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Communication</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Teamwork</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Learning</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">I am just a island boy.</p>
 
-  <hr>
-  <a href="kbz.html">KBZ Bank Ltd, Yangon, Myanmar</a>
-  <a href="contacts.html">Contact Me!</a>
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in minus fuga optio rerum, ipsa blanditiis ea eveniet iure ratione officia et necessitatibus tempore tenetur magnam magni recusandae consectetur temporibus!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam sit atque quibusdam sapiente eum nobis optio nihil! Nam dicta quo magnam quasi velit, fuga id error placeat, nostrum, nobis fugiat?</p>
+        </div>
+        <img src="img/naunau-02.jpg" alt="Naunau leaning against a bus" class="about-me__img">
+    </section>
 
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of works.</p>
+
+        <div class="portfolio">
+            <!-- Portfolio items -->
+            <a href="#" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/5905445/pexels-photo-5905445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio items -->
+            <a href="#" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio items -->
+            <a href="#" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio items -->
+            <a href="#" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/413707/pexels-photo-413707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:niswaymway@gmail.com">niswaymway@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href=""><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
 </body>
-
 </html>
